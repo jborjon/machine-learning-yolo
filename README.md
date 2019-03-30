@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/jborjon/machine-learning-y
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-![Test video](https://www.youtube.com/embed/7frB5NF-d2Q)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7frB5NF-d2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Markdown
 
