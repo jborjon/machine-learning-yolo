@@ -64,6 +64,14 @@ The results achieved by machine learning are still not perfect, as you will see 
 
 ### What are the problems we need to solve?
 
+Because computers can't make human judgements, the *garbage in, garbage out* principle needs to be heavily considered. In other words, biased training data will result in biased predictions from the model. Human language is inherently biased, so all language-related ML models will have some degree of bias.
+
+Another potential issue is the danger of intentional bias put into machine learning models by stakeholders who stand to benefit from additional sales if the undisclosed, proprietary models predict or overstate needs that don’t actually exist. Therefore, algorithms need to be transparent to inspection.
+
+A third potential issue is the possibility of machine learning predictions becoming so accurate and generalized that we are able to predict with great certainty such things as likely deadly diseases in an individual’s genome or a detailed probable path of economic activity throughout a person’s lifespan. What ill-intentioned organizations may be able to do with such data is potentially devastating.
+
+### An expert's optimism--and a word of caution
+
 
 
 ## Part II: Object Detection and YOLO
@@ -73,7 +81,9 @@ The results achieved by machine learning are still not perfect, as you will see 
 ## Sources
 
 https://en.wikipedia.org/wiki/Machine_learning
+https://en.wikipedia.org/wiki/Timeline_of_machine_learning
 https://www.sas.com/en_us/insights/analytics/machine-learning.html
 https://www.sas.com/en_gb/insights/articles/analytics/applications-of-machine-learning.html
 https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11
 https://medium.com/app-affairs/9-applications-of-machine-learning-from-day-to-day-life-112a47a429d0
+https://intelligence.org/files/EthicsofAI.pdf
