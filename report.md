@@ -99,7 +99,7 @@ YOLO stands for *You Only Look Once.* It is an optimized object-recognition meth
 
 ### What are the mechanics of YOLO?
 
-The algorithm divides the image into a 13x13 grid.
+The algorithm divides the image into a 13x13 grid. (Images courtesy of [machinethink.net](https://machinethink.net/blog/object-detection-with-yolo/#how-yolo-works))
 
 ![Dog and bicycle in detection grid](https://machinethink.net/images/yolo/Grid@2x.png "Doggity-dog-dog")
 
