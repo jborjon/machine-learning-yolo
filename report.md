@@ -56,9 +56,9 @@ Most of the applications mentioned have a tremendous potential for reducing oper
 
 ### Is machine learning better than the human mind?
 
-This point is debatable and, to a large degree, subjective. How do we define *better?* How do we define *human mind?* Changes in the technology may render this debate moot in future years.
+This point is debatable and, to a large degree, subjective. How do we define *better?* How do we define *human mind?* Changes and specialization in the technology may render this debate moot in future years.
 
-Humans still produce superior results in areas that require the human touch, such as the arts, counseling, and studying human behavior and interaction. Where computers excel is where they always have: running large amounts of calculations that would take a human brain considerable longer.
+Humans still produce superior results in areas that require the human touch, such as the arts, counseling, management and studying human behavior and interaction. Where computers excel is where they always have: running large amounts of calculations that would take a human brain considerably longer.
 
 The results achieved by machine learning are still not perfect, as you will see in the discussion in Part II.I some areas, such as healthcare, computers are still struggling to deliver satisfactory results in spite of billions of dollars of investment.
 
@@ -72,7 +72,7 @@ A third potential issue is the possibility of machine learning predictions becom
 
 ### An expert's optimism---and a word of caution
 
-In March 2019, Stanford's [Dr. Fei-Fei Li](https://www.youtube.com/watch?v=40riCqvRoMs), who is largely responsible for the current state of machine learning, and particularly machine vision, sat down with [*Wired*](https://www.wired.com/) for an interview. In it, she spoke of her worry that AI "may not always make the world better" and of her plan to make the technology more human-centric.
+In March 2019, Stanford's [Dr. Fei-Fei Li](http://vision.stanford.edu/feifeili), who is largely responsible for the current state of machine learning, and particularly machine vision, sat down with *Wired* for an [interview](https://www.wired.com/story/fei-fei-li-ai-care-more-about-humans). In it, she spoke of her worry that AI "may not always make the world better" and of her plan to make the technology more human-centric.
 
 She gave the example of an ICU, where AI could help relieve the 24/7 monitoring that overworked medical professionals must perform, without replacing the exclusively human functions those professionals provide.
 
@@ -83,15 +83,42 @@ said, “but we have to guide it in the most thoughtful and human-centric way."
 
 ## Part II: Object Detection and YOLO
 
+### What is object detection?
+
+Object detection is an application of machine learning through which specific objects, animals or people can be identified within any digital image. As with any machine learning algorithm, object detection requires large amounts of training data with known objects in order to learn how to recognize the patterns that make up that object.
+
+Older computer vision algorithms were bound by the heuristics that developers were able to think of and build into the system---they were not satisfactorily accurate nor could they handle objects that didn't fit the built-in parameters. Through years of effort in applying convolutional neural networks (CNNs) to the problem of object recognition and then assembling a gigantic training dataset with workers all over the world, Dr. Fei Fei Li and her team were able to teach machines how to see on their own, figuratively speaking.
+
+Given that video is merely a sequence of still images, object recongition is equally applicable to static images and video. Models scan each video frame and look for objects there, then they move to the next.
+
+### What is YOLO?
+
+YOLO stands for *You Only Look Once.* It is an optimized object-recognition method.
+
+[Joseph Redmon](https://www.youtube.com/watch?v=Cgxsv1riJhI), of the University of Washington, explained how other methods do their work (essentially, they scan the whole image several times for each object) and how his team was able to examine the whole image in a single pass---hence, *You Only Look Once.* The CNN-based YOLO method brings the time required to detect and recognize objects down by a tremendous factor, enabling even low-grade hardware to run simplified versions of the model at an acceptable speed while decreasing the cost of the technology, bringing it to the masses. Because YOLO is free and open source, anyone can use it for any purpose.
+
+![Dog](https://machinethink.net/images/yolo/Grid@2x.png "Doggity dog-dog")
+
+### YOLOv2 demo
+
+In order to experiment with the technology, I decided to download and apply a Python/TensorFlow version of YOLOv2 (v3, which is faster, is already out but there was much more training material available for v2). To keep things simple, I used the training weights already provided, though it seems plausible that the accuracy of the model could have been improved by using a larger, more varied dataset.
+
+In the resulting video below, you'll notice that clearly visible objects are misidentified or not identified at all. This is expected. Given my hardware and time constraints, I used a simplified version of YOLO, called Tiny YOLO, which uses fewer layers and is, therefore, faster but less accurate. It would be interesting to re-run the model using full-sized YOLO.
+
+Here's the demo. Enjoy.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ruDXYYldV1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Sources
 
-https://en.wikipedia.org/wiki/Machine_learning
-https://en.wikipedia.org/wiki/Timeline_of_machine_learning
-https://www.sas.com/en_us/insights/analytics/machine-learning.html
-https://www.sas.com/en_gb/insights/articles/analytics/applications-of-machine-learning.html
-https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11
-https://medium.com/app-affairs/9-applications-of-machine-learning-from-day-to-day-life-112a47a429d0
-https://intelligence.org/files/EthicsofAI.pdf
-https://www.wired.com/story/fei-fei-li-ai-care-more-about-humans
+- https://en.wikipedia.org/wiki/Machine_learning
+- https://en.wikipedia.org/wiki/Timeline_of_machine_learning
+- https://www.sas.com/en_us/insights/analytics/machine-learning.html
+- https://www.sas.com/en_gb/insights/articles/analytics/applications-of-machine-learning.html
+- https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11
+- https://medium.com/app-affairs/9-applications-of-machine-learning-from-day-to-day-life-112a47a429d0
+- https://intelligence.org/files/EthicsofAI.pdf
+- https://www.wired.com/story/fei-fei-li-ai-care-more-about-humans
+- https://www.youtube.com/watch?v=40riCqvRoMs
+- https://www.youtube.com/watch?v=Cgxsv1riJhI
+- https://machinethink.net/blog/object-detection-with-yolo/#how-yolo-works
