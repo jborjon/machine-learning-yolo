@@ -95,9 +95,13 @@ Given that video is merely a sequence of still images, object recongition is equ
 
 YOLO stands for *You Only Look Once.* It is an optimized object-recognition method.
 
-[Joseph Redmon](https://www.youtube.com/watch?v=Cgxsv1riJhI), of the University of Washington, explained how other methods do their work (essentially, they scan the whole image several times for each object) and how his team was able to examine the whole image in a single pass---hence, *You Only Look Once.* The CNN-based YOLO method brings the time required to detect and recognize objects down by a tremendous factor, enabling even low-grade hardware to run simplified versions of the model at an acceptable speed while decreasing the cost of the technology, bringing it to the masses. Because YOLO is free and open source, anyone can use it for any purpose.
+[Joseph Redmon](https://www.youtube.com/watch?v=Cgxsv1riJhI), of the University of Washington, explained how other methods do their work (essentially, they scan the whole image several times for each object) and how his team was able to examine the whole image in a single pass instead---hence, *You Only Look Once.* The CNN-based YOLO method brings the time required to detect and recognize objects down by a tremendous factor, enabling even low-grade hardware to run simplified versions of the model at an acceptable speed while decreasing the cost of the technology, bringing it to the masses. Because YOLO is free and open source, anyone can use it for any purpose.
+
+### What are the mechanics of YOLO?
 
 ![Dog](https://machinethink.net/images/yolo/Grid@2x.png "Doggity dog-dog")
+
+![Dog v2](https://machinethink.net/images/yolo/Grid@2.png "Doggity dog-doggo")
 
 ### YOLOv2 demo
 
