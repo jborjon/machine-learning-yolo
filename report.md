@@ -72,7 +72,7 @@ A third potential issue is the possibility of machine learning predictions becom
 
 ### An expert's optimism---and a word of caution
 
-Recently, Dr. Fei-Fei Li, who is largely responsible for the current state of machine learning, and particularly machine vision, sat down with *Wired* for an interview. In it, she spoke of her worry that AI "may not always make the world better" and of her plan to make the technology more human-centric.
+In March 2019, Stanford's [Dr. Fei-Fei Li](https://www.youtube.com/watch?v=40riCqvRoMs), who is largely responsible for the current state of machine learning, and particularly machine vision, sat down with [*Wired*](https://www.wired.com/) for an interview. In it, she spoke of her worry that AI "may not always make the world better" and of her plan to make the technology more human-centric.
 
 She gave the example of an ICU, where AI could help relieve the 24/7 monitoring that overworked medical professionals must perform, without replacing the exclusively human functions those professionals provide.
 
