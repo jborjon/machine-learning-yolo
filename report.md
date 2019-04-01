@@ -15,8 +15,6 @@ output:
 
 # Machine Learning and Object Detection: A Report
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ruDXYYldV1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Introduction
 
 This research report explores the applications and potential implications of machine learning technology on the lives of human beings. It is diveded into two parts: Part I delves briefly into the theoretical aspects of the technology, and Part II demonstrates the use of a novel machine learning model, called YOLO, to detect objects in an image or in video footage.
@@ -27,17 +25,55 @@ This research report explores the applications and potential implications of mac
 
 Machine learning is the branch of artificial intelligence that applies algorithms and mathematical models to data in order to perform tasks based on general training, without requiring explicit instructions from a programmer to do so. Typically, machine learning is used to make predictions and inference based on patterns in the existing, or "training," data.
 
-The ideas of machine learning have been around since the 1950s. However, only recently did it become feasible to apply machine learning models to large datasets in a practical way.
+The ideas of machine learning have been around since the 1950s. However, only recently did it become feasible to apply machine learning models to large datasets in a practical way. That's fortunate, since datasets have become too large for humans to analyze on their own.
+
+A few of the most commonly used algorithms for machine learning are:
+
+1. Linear Regression
+2. Logistic Regression
+3. Linear Discriminant Analysis
+4. Classification and Regression Trees
+5. Naive Bayes
+6. K-Nearest Neighbors
+7. Learning Vector Quantization
+8. Support Vector Machines
+9. Bagging and Random Forest
+10. Boosting and AdaBoost
 
 ### What are some of the applications of machine learning?
+
+The full potential of machine learning has most likely not been achieved, and many of its applications are probably yet to be discovered. They have the potential to affect all areas of industry and human life. A small sample of current applications follows:
+
+- Predicting user preferences within commercial platforms to enable businessses such as Amazon, Google and Netflix to increase revenue by matching what consumers want.
+- Enabling marketers and advertisers to predict their audiences' behaviors for the same purposes.
+- Helping to ensure optimal efficiency and compliance in the ever-more regulated financial services industry.
+- Spotting hard-to-detect security breaches in secure infrastructures.
+- Detecting bulling and hate speech in social media.
+- Automated customer support.
+- Using machine vision and object detection to enable computers to see, thus creating the possibility for facial security checks, self-driving technology, security camera self-monitoring, detection of undesirable content in media, etc. More on this point in Part II.
+
+Most of the applications mentioned have a tremendous potential for reducing operating costs and improving efficiency, creating opportunities for increased profitability.
+
+### Is machine learning better than the human mind?
+
+This point is debatable and, to a large degree, subjective. How do we define *better?* How do we define *human mind?* Changes in the technology may render this debate moot in future years.
+
+Humans still produce superior results in areas that require the human touch, such as the arts, counseling, and studying human behavior and interaction. Where computers excel is where they always have: running large amounts of calculations that would take a human brain considerable longer.
+
+The results achieved by machine learning are still not perfect, as you will see in the discussion in Part II.I some areas, such as healthcare, computers are still struggling to deliver satisfactory results in spite of billions of dollars of investment.
+
+### What are the problems we need to solve?
 
 
 
 ## Part II: Object Detection and YOLO
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ruDXYYldV1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Sources
 
 https://en.wikipedia.org/wiki/Machine_learning
 https://www.sas.com/en_us/insights/analytics/machine-learning.html
+https://www.sas.com/en_gb/insights/articles/analytics/applications-of-machine-learning.html
+https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11
+https://medium.com/app-affairs/9-applications-of-machine-learning-from-day-to-day-life-112a47a429d0
