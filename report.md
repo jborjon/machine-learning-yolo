@@ -103,7 +103,7 @@ The algorithm divides the image into a 13x13 grid.
 
 ![Dog and bicycle in detection grid](https://machinethink.net/images/yolo/Grid@2x.png "Doggity-dog-dog")
 
-Then, it attempts ti draw bounding boxes around what's likely to be discrete objects.
+Then, it attempts to draw bounding boxes around what's likely to be discrete objects.
 
 ![Dog and bicycle with class bounding boxes](https://machinethink.net/images/yolo/Boxes@2x.png)
 
