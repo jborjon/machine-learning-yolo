@@ -93,15 +93,27 @@ Given that video is merely a sequence of still images, object recongition is equ
 
 ### What is YOLO?
 
-YOLO stands for *You Only Look Once.* It is an optimized object-recognition method.
+YOLO stands for *You Only Look Once.* It is an optimized object-recognition method. It goes beyond being a repurposed classification algorithm; it specializes in the peculiarities of images.
 
 [Joseph Redmon](https://www.youtube.com/watch?v=Cgxsv1riJhI), of the University of Washington, explained how other methods do their work (essentially, they scan the whole image several times for each object) and how his team was able to examine the whole image in a single pass instead---hence, *You Only Look Once.* The CNN-based YOLO method brings the time required to detect and recognize objects down by a tremendous factor, enabling even low-grade hardware to run simplified versions of the model at an acceptable speed while decreasing the cost of the technology, bringing it to the masses. Because YOLO is free and open source, anyone can use it for any purpose.
 
 ### What are the mechanics of YOLO?
 
-![Dog](https://machinethink.net/images/yolo/Grid@2x.png "Doggity dog-dog")
+The algorithm divides the image into a 13x13 grid.
 
-![Dog v2](https://machinethink.net/images/yolo/Grid@2.png "Doggity dog-doggo")
+![Dog and bicycle in detection grid](https://machinethink.net/images/yolo/Grid@2x.png "Doggity-dog-dog")
+
+Then, it attempts ti draw bounding boxes around what's likely to be discrete objects.
+
+![Dog and bicycle with class bounding boxes](https://machinethink.net/images/yolo/Boxes@2x.png)
+
+The algorithm attempts to assign classes, or types of objects, to each bounding box.
+
+![Dog and bicycle with predicted classes](https://machinethink.net/images/yolo/Scores@2x.png)
+
+What's the likelihood that a certain bounding box contains, say, a dog? Based on the training dataset, the algorithm decides. Predictions above a certain confidence threshhold (usually around 30 percent) are displayed.
+
+![Dog and bicycle with predicted classes](https://machinethink.net/images/yolo/Prediction@2x.png)
 
 ### YOLOv2 demo
 
