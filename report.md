@@ -70,9 +70,16 @@ Another potential issue is the danger of intentional bias put into machine learn
 
 A third potential issue is the possibility of machine learning predictions becoming so accurate and generalized that we are able to predict with great certainty such things as likely deadly diseases in an individual’s genome or a detailed probable path of economic activity throughout a person’s lifespan. What ill-intentioned organizations may be able to do with such data is potentially devastating.
 
-### An expert's optimism--and a word of caution
+### An expert's optimism---and a word of caution
 
+Recently, Dr. Fei-Fei Li, who is largely responsible for the current state of machine learning, and particularly machine vision, sat down with *Wired* for an interview. In it, she spoke of her worry that AI "may not always make the world better" and of her plan to make the technology more human-centric.
 
+She gave the example of an ICU, where AI could help relieve the 24/7 monitoring that overworked medical professionals must perform, without replacing the exclusively human functions those professionals provide.
+
+She also made the point that, while the public often associates AI technologies with the tech industry, the true aim of AI researchers is to extend it to improve "manufacturing, agriculture, retail, health care, education, government," and virtually all areas of human activity.
+
+"There is a big role for AI to play in terms of helping the world in many important issues," she
+said, “but we have to guide it in the most thoughtful and human-centric way."
 
 ## Part II: Object Detection and YOLO
 
@@ -87,3 +94,4 @@ https://www.sas.com/en_gb/insights/articles/analytics/applications-of-machine-le
 https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11
 https://medium.com/app-affairs/9-applications-of-machine-learning-from-day-to-day-life-112a47a429d0
 https://intelligence.org/files/EthicsofAI.pdf
+https://www.wired.com/story/fei-fei-li-ai-care-more-about-humans
